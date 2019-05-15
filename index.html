@@ -2,49 +2,67 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="./assets/css/reset.css" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <title>Crystal Collector!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <title>Crystal Collector!</title>
 </head>
+
 <body>
+
+    <body background="assets/images/wallpaper.jpg">
         <div class="jumbotron jumbotron-fluid">
-                <div class="container">
-                  <h1 class="display-4">Crystal Collector</h1>
-                  <p class="lead">Collect Your Way to Victory</p>
-                </div>
+            <div class="container">
+                <h1 class="display-4"><u>Crystal Collector</u></h1>
+                <p class="lead"><i>Collect Your Way to Victory</i></p>
             </div>
-<div class = "container">
-<div id = "howToPlay">
-    <section>
-        <h2>How To Play:</h2>
-        <p>You will be given a random number at the start of the game. <br>
-        There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. <br>
-        You win the game by matching your total score to random number, you lose the game if your total score goes about the random number. <br>
-        The value of each crystal is hidden from you until you click on it. <br>
-        Each time when the game starts, the game will change the values of each crystal.
-    </p>
-    </section>
-</div>
-</div>
+        </div>
+        <div class="container">
+            <div id="howToPlay">
+                <section>
+                    <h2><u>How To Play:</u></h2>
+                    <p>You will be given a random number at the start of the game. <br>
+                        There are four crystals below. By clicking on a crystal you will add a specific amount of points
+                        to
+                        your total score. <br>
+                        You win the game by matching your total score to random number, you lose the game if your total
+                        score goes about the random number. <br>
+                        The value of each crystal is hidden from you until you click on it. <br>
+                        Each time when the game starts, the game will change the values of each crystal.
+                    </p>
+                </section>
+            </div>
+        </div>
 
-<div class = "container">
-  <h1>Number to Guess: <span id="number-to-guess"></span></h1>
-  <div id="crystals">
+        <div id="main-container" class="container">
+            <div id="random-number-box">
+                <h1><u>Number to Guess: </u><span id="number-to-guess"></span></h1>
+            </div>
+            <div class="crystals">
 
-    <img class="crystal-image" src="assets/images/crystal1.png" alt="crystals">
-    <img class="crystal-image" src="assets/images/crystal3.jpg" alt="crystals">
-    <img class="crystal-image" src="assets/images/crystal2.jpg" alt="crystals">
-    <img class="crystal-image" src="assets/images/crystal4.jpg" alt="crystals">
-    
+                <img class="crystal-image" src="assets/images/crystal1.png" alt="crystals">
+                <img class="crystal-image" src="assets/images/crystal3.jpg" alt="crystals">
+                <img class="crystal-image" src="assets/images/crystal2.jpg" alt="crystals">
+                <img class="crystal-image" src="assets/images/crystal4.jpg" alt="crystals">
+            </div>
+            <div id="wins-lossses-box">
+                <p>Wins: Losses:</p>
+            </div>
+            <div id="score-box">
+                <p>Your total score is:</p>
+            </div>
 
-  </div>
-</div>
-<!-- this goes in the html before the end of the body -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="assets/javascript/game.js"></script>
-</body>
+
+            <!-- this goes in the html before the end of the body -->
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+            </script>
+            <script src="assets/javascript/game.js"></script>
+    </body>
+
 </html>
