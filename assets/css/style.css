@@ -12,9 +12,18 @@
   padding-left: 20px;
 }
 
-.crystals {}
 
-#wins-lossses-box {
+#wins-box {
+  width: 200px;
+  height: 50px;
+  /* background-color: rgb(145, 190, 228, .6); */
+  font-weight: bold;
+  padding-left: 20px;
+  font-family: 'Righteous', cursive;
+  color: white;
+}
+
+#losses-box {
   width: 200px;
   height: 50px;
   /* background-color: rgb(145, 190, 228, .6); */

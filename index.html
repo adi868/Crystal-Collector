@@ -45,24 +45,23 @@
                 <h1><u>Number to Guess: </u><span id="number-to-guess"></span></h1>
             </div>
             <div class="crystals">
+                <!-- need to make image array -->
+                <img class="crystal-image" id = "img1" src="assets/images/crystal1.png" alt="crystals">
+                <img class="crystal-image" id = "img2" src="assets/images/crystal3.jpg" alt="crystals">
+                <img class="crystal-image" id = "img3" src="assets/images/crystal2.jpg" alt="crystals">
+                <img class="crystal-image" id = "img4" src="assets/images/crystal4.jpg" alt="crystals">
 
-                <img class="crystal-image" src="assets/images/crystal1.png" alt="crystals">
-                <img class="crystal-image" src="assets/images/crystal3.jpg" alt="crystals">
-                <img class="crystal-image" src="assets/images/crystal2.jpg" alt="crystals">
-                <img class="crystal-image" src="assets/images/crystal4.jpg" alt="crystals">
-            </div>
-            <div id="wins-lossses-box">
-                <p>Wins: Losses:</p>
-            </div>
-            <div id="score-box">
-                <p>Your total score is:</p>
             </div>
 
+            <div id="wins-box">Wins:</div>
+            <div id="losses-box">Losses:</div>
+            <div id="score-box">Your total score is: 0</div>
 
             <!-- this goes in the html before the end of the body -->
             <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
             </script>
             <script src="assets/javascript/game.js"></script>
+            <!-- jquery needs to go before the js..need to make sure jquery functions are in memory -->
     </body>
 
 </html>
