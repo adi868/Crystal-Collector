@@ -12,7 +12,6 @@
   padding-left: 20px;
 }
 
-
 #wins-box {
   width: 200px;
   height: 50px;
@@ -21,6 +20,7 @@
   padding-left: 20px;
   font-family: 'Righteous', cursive;
   color: white;
+  font-size: 25px;
 }
 
 #losses-box {
@@ -31,16 +31,18 @@
   padding-left: 20px;
   font-family: 'Righteous', cursive;
   color: white;
+  font-size: 25px;
 }
 
 #score-box {
-  width: 200px;
+  width: 500px;
   height: 50px;
   /* background-color: rgb(183, 241, 243, .6); */
   font-weight: bold;
   padding-left: 20px;
   color: white;
   font-family: 'Righteous', cursive;
+  font-size: 25px;
 }
 
 #howToPlay {
