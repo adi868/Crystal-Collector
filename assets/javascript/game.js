@@ -20,12 +20,13 @@ $(document).ready(function () {
   var num4 = Math.floor(Math.random() * 11) + 1;
   console.log(num1, num2, num3, num4);
 
+
   $("#img1").on("click", function () {
     $("#img1").append(num1);
     console.log(num1);
     keepCount = keepCount + num1;
     $("#score-box").text("Your total score is: " + keepCount);
-    keepCount1();
+    
   });
 
   $("#img2").on("click", function () {
@@ -33,7 +34,7 @@ $(document).ready(function () {
     console.log(num2);
     keepCount = keepCount + num2;
     $("#score-box").text("Your total score is: " + keepCount);
-    keepCount1();
+    
   });
 
   $("#img3").on("click", function () {
@@ -41,18 +42,20 @@ $(document).ready(function () {
     console.log(num3);
     keepCount = keepCount + num3;
     $("#score-box").text("Your total score is: " + keepCount);
-    keepCount1();
+    
   });
 
   $("#img4").on("click", function () {
     $("#img4").append(num4);
     console.log(num4);
-    keepCount = keepCount + num4;
+    keepCount += parseInt(num4);
+    //this doesn't work either..
     console.log(keepCount)
     $("#score-box").text("Your total score is: " + keepCount);
-    keepCount1();
+    
   });
-//try and loop
+  //can't seem to get keepCount to be cross-checked with randomNum. I think it has to do with it being a string and needs to be converted to an integer..but am stuck on how to program it. have tried many different ways
+
 
   if (keepCount === randomNum) {
     //adds one more win to counter
