@@ -20,10 +20,10 @@ $(document).ready(function () {
     console.log(randomNum);
 
     //hidden value between 1-12
-    var num1 = Math.floor(Math.random() * 11) + 1;
-    var num2 = Math.floor(Math.random() * 11) + 1;
-    var num3 = Math.floor(Math.random() * 11) + 1;
-    var num4 = Math.floor(Math.random() * 11) + 1;
+    num1 = Math.floor(Math.random() * 11) + 1;
+    num2 = Math.floor(Math.random() * 11) + 1;
+    num3 = Math.floor(Math.random() * 11) + 1;
+    num4 = Math.floor(Math.random() * 11) + 1;
     console.log(num1, num2, num3, num4);
 
   }
