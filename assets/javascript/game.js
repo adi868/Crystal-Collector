@@ -59,8 +59,7 @@ $(document).ready(function () {
     //.attr assigns values to image tag
     $("#img4").attr("data-randomnumber", num4);
     console.log(num4);
-    keepCount += parseInt(num4);
-    //this doesn't work either..
+    keepCount = keepCount + num4;
     console.log(keepCount)
     $("#score-box").text("Your total score is: " + keepCount);
     checkForStatus();
@@ -76,7 +75,7 @@ $(document).ready(function () {
       resetNum();
       newGame();
     } else if (keepCount > randomNum) {
-      alert("You lose...");
+      alert("You lose...Try again!");
       losses++;
       console.log(losses);
       $("#losses-box").html("Losses: " + losses);
