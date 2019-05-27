@@ -79,6 +79,7 @@ $(document).ready(function () {
       losses++;
       console.log(losses);
       $("#losses-box").html("Losses: " + losses);
+      //calls functions
       resetNum();
       newGame();
     };
@@ -102,5 +103,3 @@ $(document).ready(function () {
   };
 
 });
-
-//help taken from Instructor Phil's posts in slack as well as class activity on crystal game
