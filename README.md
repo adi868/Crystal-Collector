@@ -1,4 +1,4 @@
-# Crystals Collectors Game
+# Crystals Collectors
 
 This is a fun and interactive game for web browsers. It is coded using HTML, CSS, and JavaScript. Using the jQuery library, this application dynamically updates HTML pages.
 
