@@ -10,7 +10,7 @@ You lose the game if your total score goes over the random number.
 The value of each crystal is hidden from you until you click on it. 
 Each time when the game starts, the game will change the values of each crystal.
 
-Check this game out at: https://adi868.github.io/Unit-4-Game/
+Check this game out at: https://adi868.github.io/Crystal-Collector/
 
 ### Developer:
 Adina Cianciotto
