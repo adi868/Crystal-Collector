@@ -1,8 +1,8 @@
-# Crystals Collectors
+# Crystal Collectors
 
 This is a fun and interactive game for web browsers. It is coded using HTML, CSS, and JavaScript. Using the jQuery library, this application dynamically updates HTML pages.
 
-## How to Play: 
+## How To Play: 
 You will be given a random number at the start of the game. 
 There will be four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. 
 You win the game by matching your total score to random number (number to guess). 
@@ -12,5 +12,11 @@ Each time when the game starts, the game will change the values of each crystal.
 
 Check this game out at: https://adi868.github.io/Crystal-Collector/
 
-### Developer:
-Adina Cianciotto
+#### Screenshot:
+![Screenshot1](CrystalCollector.png)
+
+#### Deployed Link: 
+[Crystal Collectors](https://adi868.github.io/Crystal-Collector/)
+
+---
+© 2019 Adina Cianciotto adi868
